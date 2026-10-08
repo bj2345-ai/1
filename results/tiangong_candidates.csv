@@ -1,0 +1,7 @@
+material,status,dataset_name,uuid,version,geography,reference_year,reference_flow,reference_amount,reference_unit,record_sha256
+Brass,candidate,Copper-zinc alloy; electrolytic copper and zinc ingot; reflection furnace,d58c2083-cf82-402e-8ba1-b14a39d6195a,00.01.005,CN,2019,Brass,1000,kg,171eb1d57847e774377417bda368273c8df6a30371aa969de9bc5065a5ade686
+Copper,candidate,Refined copper production; pyrometallurgy from copper ore,dcd12894-0b02-4178-9d5e-6e219edbd71d,00.01.005,CN,2011,Refined copper,1000,kg,414bc3c0ec40f2095d840aa38df564c856b7365af046e6788af262fa6204b1d7
+"Nylon, grade unspecified",rejected,Nylon 6 industrial yarn from Nylon 6 slices,e88dc78d-a163-4579-9ec7-b9cea7fea08e,00.01.005,CN,2019,Polyamide 6 monofilament,1000,kg,67bc592e8a67a8ea33f69e9dc54919eb2babbd041326766b29d3c8b7976afd1b
+Silicone,rejected,Organic silicon monomer synthesis,a9323f4f-31bf-4282-9a03-2ee92ac355bd,00.01.005,CN,2019,Organic Silicone,1000,kg,66c863081c5cbf716caa06ebfd10c552873a4be5e8985eb099c3b34fc0a2eea8
+Cardboard packaging,alternative,Corrugated carton conversion from corrugated cardboard,b0a8d882-9859-4069-b59b-90dd19dc98a0,00.01.005,CN,2017,corrugated board boxes,1000,kg,4e98d5c7da91e2acea4d5b013e17383e7961cb901cca8deb2d97e4315de24668
+Stainless steel,alternative,Stainless steel electric furnace production,6fcb8304-d211-4c79-a9de-a1b07058ce02,00.01.005,CN,2019,Stainless Steel,1000,kg,fd8679219f8dea8eeff0a4eb64322d41519f5f8c317dbe02c0a09bd7402ea94a

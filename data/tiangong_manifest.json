@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/tiangong-lca/data",
+  "commit": "c50cab7961e0b0ca11c26a600bd4c90fea6c6c32",
+  "status": "historical snapshot; repository states current datasets require platform export",
+  "retrieved_date": "2026-10-08",
+  "local_retrieval": "git clone --depth 1 --filter=blob:none https://github.com/tiangong-lca/data.git /tmp/tiangong-public-data",
+  "license": "MIT repository license; link dataset records rather than committing a database dump",
+  "note": "This follow-up search was performed after the independent-001 Git tag. Its candidates have not been substituted into the preserved independent calculation audit."
+}

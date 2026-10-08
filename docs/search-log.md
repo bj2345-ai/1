@@ -4,7 +4,7 @@ Search date: 2026-10-08. The complete choices are in [matches.csv](../data/match
 
 ## TianGong
 
-The published `@tiangong-lca/cli@0.1.27` was installed temporarily via npm. The command `tiangong-lca search process --input /tmp/tiangong-search.json --json` used the query `polypropylene granulate production`. The CLI returned `SUPABASE_OAUTH_LOGIN_REQUIRED`; no usable session was available. The [TianGong data repository](https://github.com/tiangong-lca/data) says it is a historical snapshot and directs users to the [platform](https://lca.tiangong.earth/) to export current data. Thus no current TianGong record was inspected or used, and there are no TianGong IDs to cite. A login or permitted export is required before TianGong matching can be completed. No credentials were copied into this repository.
+The published `@tiangong-lca/cli@0.1.27` was installed temporarily via npm. The command `tiangong-lca search process --input /tmp/tiangong-search.json --json` used the query `polypropylene granulate production`. The CLI returned `SUPABASE_OAUTH_LOGIN_REQUIRED`; no usable session was available. The [TianGong data repository](https://github.com/tiangong-lca/data) says it is a historical snapshot and directs users to the [platform](https://lca.tiangong.earth/) to export current data. A subsequent login-free inspection of that public historical tree found candidate ILCD records and a GWP100 method; details are in [tiangong-public.md](tiangong-public.md). No current TianGong platform record was inspected or used. No credentials were copied into this repository.
 
 ## USLCI
 
