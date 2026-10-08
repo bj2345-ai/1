@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-08",
+  "run": "follow-up audit after independent-001 tag; original independent.json unchanged",
+  "calculation_status": "blocked",
+  "gwp100_kg_co2e_per_packaged_kettle": null,
+  "reasons": [
+    "Five BOM materials have no candidate production process in inspected USLCI release; the USLCI copper record requires external USEEIO background.",
+    "Each of the six selected USLCI candidate processes has at least one absent direct default provider in the inspected JSON-LD archive. Same-flow alternative providers for those gaps were not present in that archive.",
+    "Historical TianGong brass and stainless process records have zero input exchanges; using direct emissions as complete material burdens would omit raw material and energy supply.",
+    "Historical TianGong archive has no production process for POM or PC; nylon-yarn and silicone-monomer records do not represent the kettle's finished materials.",
+    "Nylon grade, purchased-material yields, conversion services, assembly electricity, scrap treatment and the applied compatible LCIA method remain unresolved."
+  ],
+  "verified": {
+    "product_mass_g": 723,
+    "packaging_mass_g": 137.8,
+    "packaged_mass_g": 860.8,
+    "matrix_solver_synthetic_tests_passed": 4,
+    "uslci_candidate_materials": 6,
+    "uslci_candidate_materials_with_absent_direct_providers": 6,
+    "tiangong_historical_brass_input_exchanges": 0,
+    "tiangong_historical_stainless_input_exchanges": 0
+  },
+  "interpretation": "No validated numerical full-boundary kettle result. Missing flows are not zero."
+}
