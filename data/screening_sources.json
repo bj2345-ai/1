@@ -1,0 +1,28 @@
+{
+  "retrieved_date": "2026-10-08",
+  "source_manifest": "data/manifest.json",
+  "sourced_quantities": [
+    {
+      "application": "PP procurement ratio and component electricity only",
+      "database": "USLCI",
+      "release": "1.2025-06.0",
+      "dataset": "Injection molding, rigid polypropylene part, at plant",
+      "uuid": "89a2b59a-1ca2-34f5-acc8-a8eaaa6fa870",
+      "version": "00.00.014",
+      "geography": "Northern America",
+      "valid_from": "2009-12-31",
+      "valid_until": "2009-12-31",
+      "process_type": "UNIT_PROCESS",
+      "reference_flow": "Injection molding, rigid polypropylene part, at plant",
+      "reference_amount": 1,
+      "reference_unit": "kg",
+      "resin_input_kg_per_reference": 1.034,
+      "electricity_input_MJ_per_reference": 6.444,
+      "source_url": "https://raw.githubusercontent.com/FLCAC-admin/uslci-content/refs/heads/dev/downloads/uslci_fy25_q2_01_olca2_4_1_elci_lib_json_ld.zip",
+      "archive_member": "processes/89a2b59a-1ca2-34f5-acc8-a8eaaa6fa870.json",
+      "archive_sha256": "55437502fc33d193236d50fd87a361880beea82a27139d1803be38ae0f0934b0",
+      "notes": "Only these technosphere input quantities are adopted. The record's other inputs, releases and waste outputs are not modeled. The difference between resin input and product output is treated as proxy material loss, not observed scrap destination."
+    }
+  ],
+  "assumed_factors": "All material GWP factors and non-PP component energy values in data/screening_inputs.csv; all remaining scenario values in data/screening_config.json"
+}

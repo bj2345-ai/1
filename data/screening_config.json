@@ -1,0 +1,19 @@
+{
+  "run_id": "screening-001",
+  "declared_unit": "one packaged BC1 1 L electric kettle at the factory gate",
+  "method": "Assumed cumulative GWP100 screening factors v1.0; nominal 100-year horizon; formal LCIA characterization source/version unknown",
+  "geography": "illustrative North American-style supply and electricity; not evidence of actual BC1 factory location",
+  "year": "illustrative 2025 supply conditions; not observed production year",
+  "grid_kgco2e_per_kwh": 0.45,
+  "assembly_and_packing_kwh_per_kettle": 0.15,
+  "inbound_distance_km": 500,
+  "inbound_truck_kgco2e_per_tonne_km": 0.10,
+  "scrap_disposal_kgco2e_per_kg_loss": 0.10,
+  "scrap_credit": 0,
+  "scenarios": {
+    "low": {"material_factor_multiplier": 0.70, "conversion_energy_multiplier": 0.50, "grid_kgco2e_per_kwh": 0.30, "inbound_distance_km": 250},
+    "central": {"material_factor_multiplier": 1.00, "conversion_energy_multiplier": 1.00, "grid_kgco2e_per_kwh": 0.45, "inbound_distance_km": 500},
+    "high": {"material_factor_multiplier": 1.30, "conversion_energy_multiplier": 1.50, "grid_kgco2e_per_kwh": 0.70, "inbound_distance_km": 1000}
+  },
+  "notes": "Except for the BOM and the PP resin/electricity quantities read from USLCI molding record 89a2b59a-1ca2-34f5-acc8-a8eaaa6fa870, all numeric factors and operating assumptions are author-chosen illustrative values, not sourced LCI or LCIA measurements. No statistical distributions or confidence intervals are claimed."
+}

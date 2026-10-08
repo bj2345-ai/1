@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BC1 kettle | LCA screening report</title>
+<style>
+body{font:16px/1.55 system-ui,sans-serif;max-width:1000px;margin:0 auto;padding:2rem;color:#173044;background:#f8fafb}
+h1,h2{line-height:1.2}h1{margin-bottom:.3rem}.lead{font-size:1.2rem}
+.card{background:white;border:1px solid #d5dfe4;border-radius:10px;padding:1.3rem;margin:1.2rem 0}
+.number{font-size:2.4rem;font-weight:750;color:#006b70}.caution{border-left:5px solid #c77816;padding:1rem;background:#fff7e8}
+table{border-collapse:collapse;width:100%;font-size:.9rem}th,td{border-bottom:1px solid #d5dfe4;padding:.5rem;text-align:left}th{background:#eaf1f5}
+td:not(:first-child),th:not(:first-child){text-align:right}.scroll{overflow-x:auto}a{color:#006b70}
+</style></head><body>
+<h1>BC1 1 L packaged electric kettle</h1><p class="lead">Factory-gate climate-impact screening · run screening-001 · 8 October 2026</p>
+<div class="card"><div>Approximate central result per packaged kettle</div><div class="number">3.486 kg CO₂-eq</div>
+<div>Assumption stress scenarios: 2.224–5.149 kg CO₂-eq. This is not a confidence interval.</div></div>
+<div class="caution"><strong>Interpretation:</strong> All 12 material climate factors and most manufacturing parameters are illustrative assumptions. A named, versioned LCIA characterization method was not applied. Upstream supplier closure has not been demonstrated. This figure is an approximate screening estimate, not a verified full LCA result or a defensible class comparison benchmark.</div>
+<section class="card"><h2>Product and boundary</h2><p>One manufactured and packaged representative BC1 1 L plastic kettle at the factory gate. The sourced 2020 EU preparatory-study BOM contains 723.0 g of kettle materials and 137.8 g of packaging: 860.8 g finished total. Included: assumed material supply, component conversion, assembly and packing, inbound transport and scrap disposal. Excluded: customer delivery, use and end of life. Manufacturing location and year are unknown; the North American-style 2025 context is illustrative.</p><p><a href="data/bom.csv">BOM</a> · <a href="docs/model.md">System sketch and prediction</a></p></section>
+<section class="card"><h2>Contributions</h2><p>Stages sum to 3.4856 kg CO₂-eq per packaged kettle. Top material rows: Stainless steel, Polypropylene (PP), Nylon, grade unspecified.</p><div class="scroll"><table><thead><tr><th>Stage</th><th>kg CO₂-eq</th></tr></thead><tbody><tr><td>Assumed Material Supply</td><td>2.8676</td></tr>
+<tr><td>Component And Packaging Conversion</td><td>0.5007</td></tr>
+<tr><td>Assembly And Packing</td><td>0.0675</td></tr>
+<tr><td>Assumed Inbound Transport</td><td>0.0453</td></tr>
+<tr><td>Assumed Scrap Disposal</td><td>0.0045</td></tr></tbody></table></div>
+<h3>Material rows</h3><div class="scroll"><table><thead><tr><th>Material</th><th>Finished g</th><th>Purchased g</th><th>Assumed supply kg CO₂-eq</th><th>Conversion kg CO₂-eq</th><th>Subtotal kg CO₂-eq</th></tr></thead><tbody><tr><td>Stainless steel</td><td>186.00</td><td>206.67</td><td>1.240</td><td>0.084</td><td>1.326</td></tr>
+<tr><td>Brass</td><td>20.25</td><td>21.32</td><td>0.085</td><td>0.006</td><td>0.092</td></tr>
+<tr><td>Copper</td><td>15.00</td><td>15.79</td><td>0.063</td><td>0.007</td><td>0.070</td></tr>
+<tr><td>Polypropylene (PP)</td><td>350.25</td><td>362.16</td><td>0.724</td><td>0.282</td><td>1.008</td></tr>
+<tr><td>Polyvinyl chloride (PVC)</td><td>43.50</td><td>45.79</td><td>0.114</td><td>0.029</td><td>0.144</td></tr>
+<tr><td>Nylon, grade unspecified</td><td>49.50</td><td>52.11</td><td>0.261</td><td>0.033</td><td>0.294</td></tr>
+<tr><td>Polyoxymethylene (POM)</td><td>9.75</td><td>10.26</td><td>0.036</td><td>0.007</td><td>0.043</td></tr>
+<tr><td>Polycarbonate (PC)</td><td>6.75</td><td>7.11</td><td>0.036</td><td>0.005</td><td>0.040</td></tr>
+<tr><td>Acrylonitrile-butadiene-styrene (ABS)</td><td>30.00</td><td>31.58</td><td>0.111</td><td>0.020</td><td>0.131</td></tr>
+<tr><td>Silicone</td><td>12.00</td><td>12.63</td><td>0.076</td><td>0.008</td><td>0.084</td></tr>
+<tr><td>LDPE packaging foil</td><td>6.30</td><td>6.43</td><td>0.015</td><td>0.002</td><td>0.016</td></tr>
+<tr><td>Cardboard packaging</td><td>131.50</td><td>134.18</td><td>0.107</td><td>0.018</td><td>0.125</td></tr></tbody></table></div><p>Material subtotals also contain small scrap-disposal terms; assembly and inbound transport are stage totals outside the material rows.</p></section>
+<section class="card"><h2>Method and evidence</h2><p>Each material row uses purchased mass × assumed cumulative material factor, plus finished mass × conversion electricity intensity × assumed grid factor, plus scrap-disposal proxy. Assembly adds 0.15 kWh × 0.45 kg CO₂-eq/kWh. Inbound transport assumes 500 km and 0.10 kg CO₂-eq per tonne-km. The nominal horizon is 100 years, but formal LCIA source and version are unknown. No matrix inventory result is claimed for this screening calculation.</p><p>The BOM masses are sourced. The PP molding record from USLCI 1.2025-06.0 (UUID 89a2b59a-1ca2-34f5-acc8-a8eaaa6fa870, version 00.00.014) supplies 1.034 kg resin and 6.444 MJ electricity per kg molded part. PP resin's climate factor remains assumed. Other direct molding inputs are omitted. All other numerical burden factors and process parameters are assumptions. <a href="data/screening_inputs.csv">Factor, yield and energy table</a> · <a href="data/screening_config.json">Scenario settings</a> · <a href="data/matches.csv">Dataset matches</a> · <a href="data/manifest.json">USLCI source manifest</a></p></section>
+<section class="card"><h2>Checks and limits</h2><p>Finished mass: 0.8608 kg. Assumed purchased mass: 0.9060 kg. Mass-balance and stage-sum residuals: 0.00000000 kg and 0.00000000 kg CO₂-eq. Unresolved provider links and missing compatible characterization factors prevented a verified cradle-to-gate inventory calculation. The preserved independent audit therefore has no numerical GWP100 value. The 2.224–5.149 range varies chosen assumptions together and is not parameter uncertainty or a P05–P95 interval.</p><p><a href="results/independent.json">Preserved independent audit</a> · <a href="results/closure_assessment.json">Closure assessment</a> · <a href="results/screening-001.json">Full screening results</a> · <a href="results/screening_contributions.csv">Contribution CSV</a> · <a href="README.md">Full study and reproduction README</a></p></section>
+<section class="card"><h2>Reproduce</h2><p>Install <code>requirements.txt</code>, then run <code>python kettle_lca.py retrieve</code>, <code>python kettle_lca.py audit</code>, <code>python screening.py</code>, and <code>python report.py</code>. The public USLCI archive is fetched and hash-checked; TianGong historical search details and unresolved alternatives are documented in the README. This report is generated from <code>results/screening-001.json</code>.</p></section>
+</body></html>

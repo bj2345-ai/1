@@ -1,0 +1,13 @@
+material,yield,procurement_ratio,material_kgco2e_per_kg,conversion_kwh_per_kg_finished,procurement_status,factor_status,conversion_status,note
+Stainless steel,0.90,1.111111111111,6.0,1.0,assumed,assumed,assumed,90 percent forming yield; factor is illustrative cumulative cradle-to-gate alloy proxy
+Brass,0.95,1.052631578947,4.0,0.7,assumed,assumed,assumed,95 percent forming yield; illustrative cumulative brass proxy
+Copper,0.95,1.052631578947,4.0,1.0,assumed,assumed,assumed,95 percent forming yield; illustrative cumulative copper proxy
+Polypropylene (PP),0.967117988394,1.034,2.0,1.79,sourced from USLCI molding exchange,assumed,sourced from USLCI molding exchange,1.034 kg resin and 6.444 MJ electricity per kg PP part; electricity converted using 3.6 MJ per kWh
+Polyvinyl chloride (PVC),0.95,1.052631578947,2.5,1.5,assumed,assumed,assumed,Illustrative resin and forming proxies
+"Nylon, grade unspecified",0.95,1.052631578947,5.0,1.5,assumed,assumed,assumed,Assume unfilled PA6; grade is absent from BOM
+Polyoxymethylene (POM),0.95,1.052631578947,3.5,1.5,assumed,assumed,assumed,Illustrative POM proxy without matching background process
+Polycarbonate (PC),0.95,1.052631578947,5.0,1.5,assumed,assumed,assumed,Illustrative PC proxy without matching background process
+Acrylonitrile-butadiene-styrene (ABS),0.95,1.052631578947,3.5,1.5,assumed,assumed,assumed,Illustrative resin and forming proxies
+Silicone,0.95,1.052631578947,6.0,1.5,assumed,assumed,assumed,Assume finished silicone elastomer; no matching background process
+LDPE packaging foil,0.98,1.020408163265,2.3,0.6,assumed,assumed,assumed,Illustrative LDPE resin and film extrusion proxies
+Cardboard packaging,0.98,1.020408163265,0.8,0.3,assumed,assumed,assumed,Assume average corrugated board and box converting proxy

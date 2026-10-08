@@ -1,0 +1,700 @@
+{
+  "run_id": "screening-001",
+  "declared_unit": "one packaged BC1 1 L electric kettle at the factory gate",
+  "calculation_status": "illustrative assumption-based screening estimate; not a verified full LCA",
+  "method": "Assumed cumulative GWP100 screening factors v1.0; nominal 100-year horizon; formal LCIA characterization source/version unknown",
+  "central": {
+    "scenario": "central",
+    "screening_gwp100_kgco2e_per_packaged_kettle": 3.4856274424270435,
+    "stage_contributions": {
+      "assumed_material_supply_kgco2e": 2.8676338635871064,
+      "component_and_packaging_conversion_kgco2e": 0.500671125,
+      "assembly_and_packing_kgco2e": 0.0675,
+      "assumed_inbound_transport_kgco2e": 0.04530081794664576,
+      "assumed_scrap_disposal_kgco2e": 0.004521635893291525
+    },
+    "material_breakdown": [
+      {
+        "material": "Stainless steel",
+        "scope": "Kettle",
+        "finished_kg": 0.186,
+        "purchased_kg": 0.206666666666646,
+        "scrap_kg": 0.020666666666646,
+        "material_kgco2e": 1.239999999999876,
+        "conversion_kwh": 0.186,
+        "conversion_kgco2e": 0.0837,
+        "scrap_kgco2e": 0.0020666666666646,
+        "subtotal_kgco2e": 1.3257666666665406
+      },
+      {
+        "material": "Brass",
+        "scope": "Kettle",
+        "finished_kg": 0.02025,
+        "purchased_kg": 0.02131578947367675,
+        "scrap_kg": 0.00106578947367675,
+        "material_kgco2e": 0.085263157894707,
+        "conversion_kwh": 0.014175,
+        "conversion_kgco2e": 0.00637875,
+        "scrap_kgco2e": 0.000106578947367675,
+        "subtotal_kgco2e": 0.09174848684207468
+      },
+      {
+        "material": "Copper",
+        "scope": "Kettle",
+        "finished_kg": 0.015,
+        "purchased_kg": 0.015789473684205,
+        "scrap_kg": 0.000789473684205,
+        "material_kgco2e": 0.06315789473682,
+        "conversion_kwh": 0.015,
+        "conversion_kgco2e": 0.00675,
+        "scrap_kgco2e": 7.89473684205e-05,
+        "subtotal_kgco2e": 0.0699868421052405
+      },
+      {
+        "material": "Polypropylene (PP)",
+        "scope": "Kettle",
+        "finished_kg": 0.35025,
+        "purchased_kg": 0.3621585,
+        "scrap_kg": 0.0119085,
+        "material_kgco2e": 0.724317,
+        "conversion_kwh": 0.6269475,
+        "conversion_kgco2e": 0.282126375,
+        "scrap_kgco2e": 0.00119085,
+        "subtotal_kgco2e": 1.007634225
+      },
+      {
+        "material": "Polyvinyl chloride (PVC)",
+        "scope": "Kettle",
+        "finished_kg": 0.0435,
+        "purchased_kg": 0.0457894736841945,
+        "scrap_kg": 0.0022894736841945,
+        "material_kgco2e": 0.11447368421048625,
+        "conversion_kwh": 0.06525,
+        "conversion_kgco2e": 0.0293625,
+        "scrap_kgco2e": 0.00022894736841945,
+        "subtotal_kgco2e": 0.1440651315789057
+      },
+      {
+        "material": "Nylon, grade unspecified",
+        "scope": "Kettle",
+        "finished_kg": 0.0495,
+        "purchased_kg": 0.0521052631578765,
+        "scrap_kg": 0.0026052631578765,
+        "material_kgco2e": 0.2605263157893825,
+        "conversion_kwh": 0.07425,
+        "conversion_kgco2e": 0.0334125,
+        "scrap_kgco2e": 0.00026052631578765,
+        "subtotal_kgco2e": 0.2941993421051701
+      },
+      {
+        "material": "Polyoxymethylene (POM)",
+        "scope": "Kettle",
+        "finished_kg": 0.00975,
+        "purchased_kg": 0.01026315789473325,
+        "scrap_kg": 0.00051315789473325,
+        "material_kgco2e": 0.03592105263156638,
+        "conversion_kwh": 0.014625,
+        "conversion_kgco2e": 0.00658125,
+        "scrap_kgco2e": 5.1315789473325e-05,
+        "subtotal_kgco2e": 0.0425536184210397
+      },
+      {
+        "material": "Polycarbonate (PC)",
+        "scope": "Kettle",
+        "finished_kg": 0.00675,
+        "purchased_kg": 0.00710526315789225,
+        "scrap_kg": 0.00035526315789225,
+        "material_kgco2e": 0.03552631578946125,
+        "conversion_kwh": 0.010125,
+        "conversion_kgco2e": 0.00455625,
+        "scrap_kgco2e": 3.5526315789225e-05,
+        "subtotal_kgco2e": 0.040118092105250476
+      },
+      {
+        "material": "Acrylonitrile-butadiene-styrene (ABS)",
+        "scope": "Kettle",
+        "finished_kg": 0.03,
+        "purchased_kg": 0.03157894736841,
+        "scrap_kg": 0.00157894736841,
+        "material_kgco2e": 0.110526315789435,
+        "conversion_kwh": 0.045,
+        "conversion_kgco2e": 0.02025,
+        "scrap_kgco2e": 0.000157894736841,
+        "subtotal_kgco2e": 0.130934210526276
+      },
+      {
+        "material": "Silicone",
+        "scope": "Kettle",
+        "finished_kg": 0.012,
+        "purchased_kg": 0.012631578947364,
+        "scrap_kg": 0.000631578947364,
+        "material_kgco2e": 0.075789473684184,
+        "conversion_kwh": 0.018,
+        "conversion_kgco2e": 0.0081,
+        "scrap_kgco2e": 6.31578947364e-05,
+        "subtotal_kgco2e": 0.0839526315789204
+      },
+      {
+        "material": "LDPE packaging foil",
+        "scope": "Packaging",
+        "finished_kg": 0.0063,
+        "purchased_kg": 0.0064285714285695,
+        "scrap_kg": 0.0001285714285695,
+        "material_kgco2e": 0.01478571428570985,
+        "conversion_kwh": 0.00378,
+        "conversion_kgco2e": 0.001701,
+        "scrap_kgco2e": 1.285714285695e-05,
+        "subtotal_kgco2e": 0.0164995714285668
+      },
+      {
+        "material": "Cardboard packaging",
+        "scope": "Packaging",
+        "finished_kg": 0.1315,
+        "purchased_kg": 0.1341836734693475,
+        "scrap_kg": 0.0026836734693475,
+        "material_kgco2e": 0.107346938775478,
+        "conversion_kwh": 0.03945,
+        "conversion_kgco2e": 0.0177525,
+        "scrap_kgco2e": 0.00026836734693475,
+        "subtotal_kgco2e": 0.12536780612241274
+      }
+    ],
+    "top_three_material_rows": [
+      "Stainless steel",
+      "Polypropylene (PP)",
+      "Nylon, grade unspecified"
+    ],
+    "checks": {
+      "finished_mass_kg": 0.8608,
+      "purchased_mass_kg": 0.9060163589329152,
+      "mass_balance_kg": 0.0,
+      "contribution_sum_residual_kgco2e": 0.0,
+      "upstream_supplier_closure": "not demonstrated; cumulative material factors are assumed proxies",
+      "formal_lcia_method": "unknown; screening proxy convention only"
+    }
+  },
+  "scenario_range_kgco2e": [
+    2.223906124377589,
+    5.148779919449821
+  ],
+  "scenarios": {
+    "low": {
+      "scenario": "low",
+      "screening_gwp100_kgco2e_per_packaged_kettle": 2.223906124377589,
+      "stage_contributions": {
+        "assumed_material_supply_kgco2e": 2.0073437045109745,
+        "component_and_packaging_conversion_kgco2e": 0.166890375,
+        "assembly_and_packing_kgco2e": 0.0225,
+        "assumed_inbound_transport_kgco2e": 0.02265040897332288,
+        "assumed_scrap_disposal_kgco2e": 0.004521635893291525
+      },
+      "material_breakdown": [
+        {
+          "material": "Stainless steel",
+          "scope": "Kettle",
+          "finished_kg": 0.186,
+          "purchased_kg": 0.206666666666646,
+          "scrap_kg": 0.020666666666646,
+          "material_kgco2e": 0.8679999999999132,
+          "conversion_kwh": 0.093,
+          "conversion_kgco2e": 0.0279,
+          "scrap_kgco2e": 0.0020666666666646,
+          "subtotal_kgco2e": 0.8979666666665778
+        },
+        {
+          "material": "Brass",
+          "scope": "Kettle",
+          "finished_kg": 0.02025,
+          "purchased_kg": 0.02131578947367675,
+          "scrap_kg": 0.00106578947367675,
+          "material_kgco2e": 0.0596842105262949,
+          "conversion_kwh": 0.0070875,
+          "conversion_kgco2e": 0.00212625,
+          "scrap_kgco2e": 0.000106578947367675,
+          "subtotal_kgco2e": 0.061917039473662575
+        },
+        {
+          "material": "Copper",
+          "scope": "Kettle",
+          "finished_kg": 0.015,
+          "purchased_kg": 0.015789473684205,
+          "scrap_kg": 0.000789473684205,
+          "material_kgco2e": 0.044210526315774,
+          "conversion_kwh": 0.0075,
+          "conversion_kgco2e": 0.00225,
+          "scrap_kgco2e": 7.89473684205e-05,
+          "subtotal_kgco2e": 0.0465394736841945
+        },
+        {
+          "material": "Polypropylene (PP)",
+          "scope": "Kettle",
+          "finished_kg": 0.35025,
+          "purchased_kg": 0.3621585,
+          "scrap_kg": 0.0119085,
+          "material_kgco2e": 0.5070219,
+          "conversion_kwh": 0.31347375,
+          "conversion_kgco2e": 0.094042125,
+          "scrap_kgco2e": 0.00119085,
+          "subtotal_kgco2e": 0.602254875
+        },
+        {
+          "material": "Polyvinyl chloride (PVC)",
+          "scope": "Kettle",
+          "finished_kg": 0.0435,
+          "purchased_kg": 0.0457894736841945,
+          "scrap_kg": 0.0022894736841945,
+          "material_kgco2e": 0.08013157894734038,
+          "conversion_kwh": 0.032625,
+          "conversion_kgco2e": 0.0097875,
+          "scrap_kgco2e": 0.00022894736841945,
+          "subtotal_kgco2e": 0.09014802631575983
+        },
+        {
+          "material": "Nylon, grade unspecified",
+          "scope": "Kettle",
+          "finished_kg": 0.0495,
+          "purchased_kg": 0.0521052631578765,
+          "scrap_kg": 0.0026052631578765,
+          "material_kgco2e": 0.18236842105256776,
+          "conversion_kwh": 0.037125,
+          "conversion_kgco2e": 0.0111375,
+          "scrap_kgco2e": 0.00026052631578765,
+          "subtotal_kgco2e": 0.1937664473683554
+        },
+        {
+          "material": "Polyoxymethylene (POM)",
+          "scope": "Kettle",
+          "finished_kg": 0.00975,
+          "purchased_kg": 0.01026315789473325,
+          "scrap_kg": 0.00051315789473325,
+          "material_kgco2e": 0.025144736842096463,
+          "conversion_kwh": 0.0073125,
+          "conversion_kgco2e": 0.00219375,
+          "scrap_kgco2e": 5.1315789473325e-05,
+          "subtotal_kgco2e": 0.027389802631569787
+        },
+        {
+          "material": "Polycarbonate (PC)",
+          "scope": "Kettle",
+          "finished_kg": 0.00675,
+          "purchased_kg": 0.00710526315789225,
+          "scrap_kg": 0.00035526315789225,
+          "material_kgco2e": 0.024868421052622876,
+          "conversion_kwh": 0.0050625,
+          "conversion_kgco2e": 0.00151875,
+          "scrap_kgco2e": 3.5526315789225e-05,
+          "subtotal_kgco2e": 0.0264226973684121
+        },
+        {
+          "material": "Acrylonitrile-butadiene-styrene (ABS)",
+          "scope": "Kettle",
+          "finished_kg": 0.03,
+          "purchased_kg": 0.03157894736841,
+          "scrap_kg": 0.00157894736841,
+          "material_kgco2e": 0.0773684210526045,
+          "conversion_kwh": 0.0225,
+          "conversion_kgco2e": 0.00675,
+          "scrap_kgco2e": 0.000157894736841,
+          "subtotal_kgco2e": 0.0842763157894455
+        },
+        {
+          "material": "Silicone",
+          "scope": "Kettle",
+          "finished_kg": 0.012,
+          "purchased_kg": 0.012631578947364,
+          "scrap_kg": 0.000631578947364,
+          "material_kgco2e": 0.0530526315789288,
+          "conversion_kwh": 0.009,
+          "conversion_kgco2e": 0.0027,
+          "scrap_kgco2e": 6.31578947364e-05,
+          "subtotal_kgco2e": 0.0558157894736652
+        },
+        {
+          "material": "LDPE packaging foil",
+          "scope": "Packaging",
+          "finished_kg": 0.0063,
+          "purchased_kg": 0.0064285714285695,
+          "scrap_kg": 0.0001285714285695,
+          "material_kgco2e": 0.010349999999996895,
+          "conversion_kwh": 0.00189,
+          "conversion_kgco2e": 0.000567,
+          "scrap_kgco2e": 1.285714285695e-05,
+          "subtotal_kgco2e": 0.010929857142853844
+        },
+        {
+          "material": "Cardboard packaging",
+          "scope": "Packaging",
+          "finished_kg": 0.1315,
+          "purchased_kg": 0.1341836734693475,
+          "scrap_kg": 0.0026836734693475,
+          "material_kgco2e": 0.0751428571428346,
+          "conversion_kwh": 0.019725,
+          "conversion_kgco2e": 0.0059175,
+          "scrap_kgco2e": 0.00026836734693475,
+          "subtotal_kgco2e": 0.08132872448976936
+        }
+      ],
+      "top_three_material_rows": [
+        "Stainless steel",
+        "Polypropylene (PP)",
+        "Nylon, grade unspecified"
+      ],
+      "checks": {
+        "finished_mass_kg": 0.8608,
+        "purchased_mass_kg": 0.9060163589329152,
+        "mass_balance_kg": 0.0,
+        "contribution_sum_residual_kgco2e": 0.0,
+        "upstream_supplier_closure": "not demonstrated; cumulative material factors are assumed proxies",
+        "formal_lcia_method": "unknown; screening proxy convention only"
+      }
+    },
+    "central": {
+      "scenario": "central",
+      "screening_gwp100_kgco2e_per_packaged_kettle": 3.4856274424270435,
+      "stage_contributions": {
+        "assumed_material_supply_kgco2e": 2.8676338635871064,
+        "component_and_packaging_conversion_kgco2e": 0.500671125,
+        "assembly_and_packing_kgco2e": 0.0675,
+        "assumed_inbound_transport_kgco2e": 0.04530081794664576,
+        "assumed_scrap_disposal_kgco2e": 0.004521635893291525
+      },
+      "material_breakdown": [
+        {
+          "material": "Stainless steel",
+          "scope": "Kettle",
+          "finished_kg": 0.186,
+          "purchased_kg": 0.206666666666646,
+          "scrap_kg": 0.020666666666646,
+          "material_kgco2e": 1.239999999999876,
+          "conversion_kwh": 0.186,
+          "conversion_kgco2e": 0.0837,
+          "scrap_kgco2e": 0.0020666666666646,
+          "subtotal_kgco2e": 1.3257666666665406
+        },
+        {
+          "material": "Brass",
+          "scope": "Kettle",
+          "finished_kg": 0.02025,
+          "purchased_kg": 0.02131578947367675,
+          "scrap_kg": 0.00106578947367675,
+          "material_kgco2e": 0.085263157894707,
+          "conversion_kwh": 0.014175,
+          "conversion_kgco2e": 0.00637875,
+          "scrap_kgco2e": 0.000106578947367675,
+          "subtotal_kgco2e": 0.09174848684207468
+        },
+        {
+          "material": "Copper",
+          "scope": "Kettle",
+          "finished_kg": 0.015,
+          "purchased_kg": 0.015789473684205,
+          "scrap_kg": 0.000789473684205,
+          "material_kgco2e": 0.06315789473682,
+          "conversion_kwh": 0.015,
+          "conversion_kgco2e": 0.00675,
+          "scrap_kgco2e": 7.89473684205e-05,
+          "subtotal_kgco2e": 0.0699868421052405
+        },
+        {
+          "material": "Polypropylene (PP)",
+          "scope": "Kettle",
+          "finished_kg": 0.35025,
+          "purchased_kg": 0.3621585,
+          "scrap_kg": 0.0119085,
+          "material_kgco2e": 0.724317,
+          "conversion_kwh": 0.6269475,
+          "conversion_kgco2e": 0.282126375,
+          "scrap_kgco2e": 0.00119085,
+          "subtotal_kgco2e": 1.007634225
+        },
+        {
+          "material": "Polyvinyl chloride (PVC)",
+          "scope": "Kettle",
+          "finished_kg": 0.0435,
+          "purchased_kg": 0.0457894736841945,
+          "scrap_kg": 0.0022894736841945,
+          "material_kgco2e": 0.11447368421048625,
+          "conversion_kwh": 0.06525,
+          "conversion_kgco2e": 0.0293625,
+          "scrap_kgco2e": 0.00022894736841945,
+          "subtotal_kgco2e": 0.1440651315789057
+        },
+        {
+          "material": "Nylon, grade unspecified",
+          "scope": "Kettle",
+          "finished_kg": 0.0495,
+          "purchased_kg": 0.0521052631578765,
+          "scrap_kg": 0.0026052631578765,
+          "material_kgco2e": 0.2605263157893825,
+          "conversion_kwh": 0.07425,
+          "conversion_kgco2e": 0.0334125,
+          "scrap_kgco2e": 0.00026052631578765,
+          "subtotal_kgco2e": 0.2941993421051701
+        },
+        {
+          "material": "Polyoxymethylene (POM)",
+          "scope": "Kettle",
+          "finished_kg": 0.00975,
+          "purchased_kg": 0.01026315789473325,
+          "scrap_kg": 0.00051315789473325,
+          "material_kgco2e": 0.03592105263156638,
+          "conversion_kwh": 0.014625,
+          "conversion_kgco2e": 0.00658125,
+          "scrap_kgco2e": 5.1315789473325e-05,
+          "subtotal_kgco2e": 0.0425536184210397
+        },
+        {
+          "material": "Polycarbonate (PC)",
+          "scope": "Kettle",
+          "finished_kg": 0.00675,
+          "purchased_kg": 0.00710526315789225,
+          "scrap_kg": 0.00035526315789225,
+          "material_kgco2e": 0.03552631578946125,
+          "conversion_kwh": 0.010125,
+          "conversion_kgco2e": 0.00455625,
+          "scrap_kgco2e": 3.5526315789225e-05,
+          "subtotal_kgco2e": 0.040118092105250476
+        },
+        {
+          "material": "Acrylonitrile-butadiene-styrene (ABS)",
+          "scope": "Kettle",
+          "finished_kg": 0.03,
+          "purchased_kg": 0.03157894736841,
+          "scrap_kg": 0.00157894736841,
+          "material_kgco2e": 0.110526315789435,
+          "conversion_kwh": 0.045,
+          "conversion_kgco2e": 0.02025,
+          "scrap_kgco2e": 0.000157894736841,
+          "subtotal_kgco2e": 0.130934210526276
+        },
+        {
+          "material": "Silicone",
+          "scope": "Kettle",
+          "finished_kg": 0.012,
+          "purchased_kg": 0.012631578947364,
+          "scrap_kg": 0.000631578947364,
+          "material_kgco2e": 0.075789473684184,
+          "conversion_kwh": 0.018,
+          "conversion_kgco2e": 0.0081,
+          "scrap_kgco2e": 6.31578947364e-05,
+          "subtotal_kgco2e": 0.0839526315789204
+        },
+        {
+          "material": "LDPE packaging foil",
+          "scope": "Packaging",
+          "finished_kg": 0.0063,
+          "purchased_kg": 0.0064285714285695,
+          "scrap_kg": 0.0001285714285695,
+          "material_kgco2e": 0.01478571428570985,
+          "conversion_kwh": 0.00378,
+          "conversion_kgco2e": 0.001701,
+          "scrap_kgco2e": 1.285714285695e-05,
+          "subtotal_kgco2e": 0.0164995714285668
+        },
+        {
+          "material": "Cardboard packaging",
+          "scope": "Packaging",
+          "finished_kg": 0.1315,
+          "purchased_kg": 0.1341836734693475,
+          "scrap_kg": 0.0026836734693475,
+          "material_kgco2e": 0.107346938775478,
+          "conversion_kwh": 0.03945,
+          "conversion_kgco2e": 0.0177525,
+          "scrap_kgco2e": 0.00026836734693475,
+          "subtotal_kgco2e": 0.12536780612241274
+        }
+      ],
+      "top_three_material_rows": [
+        "Stainless steel",
+        "Polypropylene (PP)",
+        "Nylon, grade unspecified"
+      ],
+      "checks": {
+        "finished_mass_kg": 0.8608,
+        "purchased_mass_kg": 0.9060163589329152,
+        "mass_balance_kg": 0.0,
+        "contribution_sum_residual_kgco2e": 0.0,
+        "upstream_supplier_closure": "not demonstrated; cumulative material factors are assumed proxies",
+        "formal_lcia_method": "unknown; screening proxy convention only"
+      }
+    },
+    "high": {
+      "scenario": "high",
+      "screening_gwp100_kgco2e_per_packaged_kettle": 5.148779919449821,
+      "stage_contributions": {
+        "assumed_material_supply_kgco2e": 3.727924022663238,
+        "component_and_packaging_conversion_kgco2e": 1.168232625,
+        "assembly_and_packing_kgco2e": 0.1575,
+        "assumed_inbound_transport_kgco2e": 0.09060163589329152,
+        "assumed_scrap_disposal_kgco2e": 0.004521635893291525
+      },
+      "material_breakdown": [
+        {
+          "material": "Stainless steel",
+          "scope": "Kettle",
+          "finished_kg": 0.186,
+          "purchased_kg": 0.206666666666646,
+          "scrap_kg": 0.020666666666646,
+          "material_kgco2e": 1.611999999999839,
+          "conversion_kwh": 0.279,
+          "conversion_kgco2e": 0.1953,
+          "scrap_kgco2e": 0.0020666666666646,
+          "subtotal_kgco2e": 1.8093666666665034
+        },
+        {
+          "material": "Brass",
+          "scope": "Kettle",
+          "finished_kg": 0.02025,
+          "purchased_kg": 0.02131578947367675,
+          "scrap_kg": 0.00106578947367675,
+          "material_kgco2e": 0.1108421052631191,
+          "conversion_kwh": 0.0212625,
+          "conversion_kgco2e": 0.01488375,
+          "scrap_kgco2e": 0.000106578947367675,
+          "subtotal_kgco2e": 0.1258324342104868
+        },
+        {
+          "material": "Copper",
+          "scope": "Kettle",
+          "finished_kg": 0.015,
+          "purchased_kg": 0.015789473684205,
+          "scrap_kg": 0.000789473684205,
+          "material_kgco2e": 0.082105263157866,
+          "conversion_kwh": 0.0225,
+          "conversion_kgco2e": 0.01575,
+          "scrap_kgco2e": 7.89473684205e-05,
+          "subtotal_kgco2e": 0.0979342105262865
+        },
+        {
+          "material": "Polypropylene (PP)",
+          "scope": "Kettle",
+          "finished_kg": 0.35025,
+          "purchased_kg": 0.3621585,
+          "scrap_kg": 0.0119085,
+          "material_kgco2e": 0.9416121,
+          "conversion_kwh": 0.94042125,
+          "conversion_kgco2e": 0.658294875,
+          "scrap_kgco2e": 0.00119085,
+          "subtotal_kgco2e": 1.601097825
+        },
+        {
+          "material": "Polyvinyl chloride (PVC)",
+          "scope": "Kettle",
+          "finished_kg": 0.0435,
+          "purchased_kg": 0.0457894736841945,
+          "scrap_kg": 0.0022894736841945,
+          "material_kgco2e": 0.14881578947363214,
+          "conversion_kwh": 0.097875,
+          "conversion_kgco2e": 0.0685125,
+          "scrap_kgco2e": 0.00022894736841945,
+          "subtotal_kgco2e": 0.21755723684205158
+        },
+        {
+          "material": "Nylon, grade unspecified",
+          "scope": "Kettle",
+          "finished_kg": 0.0495,
+          "purchased_kg": 0.0521052631578765,
+          "scrap_kg": 0.0026052631578765,
+          "material_kgco2e": 0.33868421052619724,
+          "conversion_kwh": 0.111375,
+          "conversion_kgco2e": 0.0779625,
+          "scrap_kgco2e": 0.00026052631578765,
+          "subtotal_kgco2e": 0.4169072368419849
+        },
+        {
+          "material": "Polyoxymethylene (POM)",
+          "scope": "Kettle",
+          "finished_kg": 0.00975,
+          "purchased_kg": 0.01026315789473325,
+          "scrap_kg": 0.00051315789473325,
+          "material_kgco2e": 0.046697368421036285,
+          "conversion_kwh": 0.0219375,
+          "conversion_kgco2e": 0.01535625,
+          "scrap_kgco2e": 5.1315789473325e-05,
+          "subtotal_kgco2e": 0.06210493421050961
+        },
+        {
+          "material": "Polycarbonate (PC)",
+          "scope": "Kettle",
+          "finished_kg": 0.00675,
+          "purchased_kg": 0.00710526315789225,
+          "scrap_kg": 0.00035526315789225,
+          "material_kgco2e": 0.046184210526299625,
+          "conversion_kwh": 0.0151875,
+          "conversion_kgco2e": 0.01063125,
+          "scrap_kgco2e": 3.5526315789225e-05,
+          "subtotal_kgco2e": 0.05685098684208885
+        },
+        {
+          "material": "Acrylonitrile-butadiene-styrene (ABS)",
+          "scope": "Kettle",
+          "finished_kg": 0.03,
+          "purchased_kg": 0.03157894736841,
+          "scrap_kg": 0.00157894736841,
+          "material_kgco2e": 0.1436842105262655,
+          "conversion_kwh": 0.0675,
+          "conversion_kgco2e": 0.04725,
+          "scrap_kgco2e": 0.000157894736841,
+          "subtotal_kgco2e": 0.1910921052631065
+        },
+        {
+          "material": "Silicone",
+          "scope": "Kettle",
+          "finished_kg": 0.012,
+          "purchased_kg": 0.012631578947364,
+          "scrap_kg": 0.000631578947364,
+          "material_kgco2e": 0.0985263157894392,
+          "conversion_kwh": 0.027,
+          "conversion_kgco2e": 0.0189,
+          "scrap_kgco2e": 6.31578947364e-05,
+          "subtotal_kgco2e": 0.1174894736841756
+        },
+        {
+          "material": "LDPE packaging foil",
+          "scope": "Packaging",
+          "finished_kg": 0.0063,
+          "purchased_kg": 0.0064285714285695,
+          "scrap_kg": 0.0001285714285695,
+          "material_kgco2e": 0.019221428571422804,
+          "conversion_kwh": 0.00567,
+          "conversion_kgco2e": 0.003969,
+          "scrap_kgco2e": 1.285714285695e-05,
+          "subtotal_kgco2e": 0.023203285714279754
+        },
+        {
+          "material": "Cardboard packaging",
+          "scope": "Packaging",
+          "finished_kg": 0.1315,
+          "purchased_kg": 0.1341836734693475,
+          "scrap_kg": 0.0026836734693475,
+          "material_kgco2e": 0.1395510204081214,
+          "conversion_kwh": 0.059175,
+          "conversion_kgco2e": 0.0414225,
+          "scrap_kgco2e": 0.00026836734693475,
+          "subtotal_kgco2e": 0.18124188775505615
+        }
+      ],
+      "top_three_material_rows": [
+        "Stainless steel",
+        "Polypropylene (PP)",
+        "Nylon, grade unspecified"
+      ],
+      "checks": {
+        "finished_mass_kg": 0.8608,
+        "purchased_mass_kg": 0.9060163589329152,
+        "mass_balance_kg": 0.0,
+        "contribution_sum_residual_kgco2e": 0.0,
+        "upstream_supplier_closure": "not demonstrated; cumulative material factors are assumed proxies",
+        "formal_lcia_method": "unknown; screening proxy convention only"
+      }
+    }
+  },
+  "provenance": "BOM is sourced; PP material ratio and electricity are sourced from USLCI molding exchange; all other numeric burden factors and operating parameters are explicit assumptions.",
+  "limitations": [
+    "No complete supplier closure",
+    "No verified material-factor LCIA method/version",
+    "Illustrative geographic/year scenario",
+    "Omitted auxiliary fuels and other conversion inputs",
+    "Low/high scenarios are not a statistical interval"
+  ]
+}
