@@ -1,0 +1,17 @@
+{
+  "run_id": "independent-001",
+  "study_date": "2026-10-08",
+  "declared_unit": "one manufactured and packaged BC1 1 L plastic electric kettle at factory gate",
+  "geography": "unknown; USLCI candidates are North American or US and are not evidence of BC1 production location",
+  "reference_year": "unknown for kettle manufacture; BOM is from 2020 study",
+  "nylon_grade": null,
+  "material_yields": null,
+  "component_conversion": null,
+  "assembly_electricity_kwh": null,
+  "packaging_conversion": null,
+  "transport": null,
+  "scrap_treatment": null,
+  "allocation": null,
+  "characterization_method": null,
+  "notes": "Null fields are unresolved decisions or missing evidence, never zero burdens. Finished masses are not procurement amounts."
+}

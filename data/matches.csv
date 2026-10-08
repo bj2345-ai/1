@@ -1,0 +1,13 @@
+material,status,database_release,dataset_id,dataset_version,decision
+Stainless steel,candidate,USLCI 1.2025-06.0,49f5324b-fc33-36e9-b5af-3c80d73492bd,00.01.011,304 flat rolled coil plausible for vessel but forming missing; verify cradle-to-gate scope
+Brass,missing,USLCI 1.2025-06.0,,,No brass production record found in downloaded release
+Copper,rejected,USLCI 1.2025-06.0,6373ec73-ca57-47bd-8284-2f3cc25b8637,00.00.004,Bridge to USEEIO requires external monetary background and is not standalone copper LCI
+Polypropylene (PP),candidate,USLCI 1.2025-06.0,2e8facf6-46aa-4ddb-95de-a4e2a00eb2bb,00.01.004,Virgin resin; separate injection molding process embeds 1.034 kg resin per kg part and must replace rather than supplement resin input
+Polyvinyl chloride (PVC),candidate,USLCI 1.2025-06.0,3dbccdda-2014-4239-ad1f-4e15c034942b,00.01.007,Suspension-grade PVC resin; component conversion remains missing
+"Nylon, grade unspecified",missing,USLCI 1.2025-06.0,,,Grade PA6 versus PA66 unresolved and no matching production record in downloaded release
+Polyoxymethylene (POM),missing,USLCI 1.2025-06.0,,,No POM production record found in downloaded release
+Polycarbonate (PC),missing,USLCI 1.2025-06.0,,,No PC production record found in downloaded release
+Acrylonitrile-butadiene-styrene (ABS),candidate,USLCI 1.2025-06.0,0e42a306-ee2d-362e-8bc3-580000096459,00.01.002,Copolymer resin; part forming remains missing
+Silicone,missing,USLCI 1.2025-06.0,,,No silicone elastomer production record found in downloaded release
+LDPE packaging foil,candidate,USLCI 1.2025-06.0,6a12cba1-889d-4515-90f8-89feb8d662f2,00.01.003,LDPE resin only; film extrusion remains missing
+Cardboard packaging,candidate,USLCI 1.2025-06.0,226ed3c2-e020-4c95-b1fc-4559fc2d18ac,00.01.003,Average corrugated product proxy; verify carton type and converting losses

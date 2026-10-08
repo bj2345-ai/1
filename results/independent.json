@@ -1,0 +1,41 @@
+{
+  "run_id": "independent-001",
+  "study_date": "2026-10-08",
+  "declared_unit": "one manufactured and packaged BC1 1 L plastic electric kettle at factory gate",
+  "calculation_status": "blocked: full cradle-to-gate GWP100 cannot be calculated",
+  "gwp100_kg_co2e_per_packaged_kettle": null,
+  "characterization_method": null,
+  "mass_check": {
+    "product_g": "723.00",
+    "packaging_g": "137.8",
+    "packaged_g": "860.80",
+    "passed": true
+  },
+  "candidate_record_count": 6,
+  "missing_or_rejected_material_count": 6,
+  "issues": [
+    "Stainless steel: 1 direct upstream supplier(s) unavailable",
+    "Brass: missing background match",
+    "Copper: rejected background match",
+    "Copper: 1 direct upstream supplier(s) unavailable",
+    "Polypropylene (PP): 2 direct upstream supplier(s) unavailable",
+    "Polyvinyl chloride (PVC): 6 direct upstream supplier(s) unavailable",
+    "Nylon, grade unspecified: missing background match",
+    "Polyoxymethylene (POM): missing background match",
+    "Polycarbonate (PC): missing background match",
+    "Acrylonitrile-butadiene-styrene (ABS): 1 direct upstream supplier(s) unavailable",
+    "Silicone: missing background match",
+    "LDPE packaging foil: 2 direct upstream supplier(s) unavailable",
+    "Cardboard packaging: 3 direct upstream supplier(s) unavailable",
+    "foreground or method input unresolved: nylon_grade",
+    "foreground or method input unresolved: material_yields",
+    "foreground or method input unresolved: component_conversion",
+    "foreground or method input unresolved: assembly_electricity_kwh",
+    "foreground or method input unresolved: packaging_conversion",
+    "foreground or method input unresolved: scrap_treatment",
+    "foreground or method input unresolved: allocation",
+    "foreground or method input unresolved: characterization_method",
+    "foreground or method input unresolved: transport"
+  ],
+  "notes": "A missing supplier, yield, energy input, or LCIA method is not a zero impact. Candidate records alone do not establish a valid total."
+}

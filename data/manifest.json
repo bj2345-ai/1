@@ -1,0 +1,11 @@
+{
+  "database": "USLCI",
+  "release": "1.2025-06.0",
+  "format": "openLCA JSON-LD ZIP",
+  "url": "https://raw.githubusercontent.com/FLCAC-admin/uslci-content/refs/heads/dev/downloads/uslci_fy25_q2_01_olca2_4_1_elci_lib_json_ld.zip",
+  "retrieved_date": "2026-10-08",
+  "sha256": "55437502fc33d193236d50fd87a361880beea82a27139d1803be38ae0f0934b0",
+  "local_cache": "cache/uslci_2025_06.zip",
+  "source_index": "https://github.com/FLCAC-admin/uslci-content/blob/dev/docs/release_info/release-downloads.md",
+  "notes": "The September 2026 .zolca release was inspected, but June 2025 JSON-LD was selected because its process records can be independently audited without openLCA. The release contains no LCIA methods."
+}

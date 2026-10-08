@@ -1,0 +1,32 @@
+{
+  "Stainless steel": [
+    "Ferromanganese, at furnace"
+  ],
+  "Copper": [
+    "Copper, gold and silver concentrates"
+  ],
+  "Polypropylene (PP)": [
+    "Nitrogen, liquid, at plant",
+    "Electricity, AC, 120 V"
+  ],
+  "Polyvinyl chloride (PVC)": [
+    "Electricity, AC, 120 V",
+    "Electricity, AC, 120 V",
+    "Electricity, AC, 120 V",
+    "Hydrogen peroxide, at plant",
+    "Polyvinyl Acetate",
+    "Electricity, AC, 120 V"
+  ],
+  "Acrylonitrile-butadiene-styrene (ABS)": [
+    "Electricity, AC, 120 V"
+  ],
+  "LDPE packaging foil": [
+    "Electricity, AC, 120 V",
+    "Nitrogen, liquid, at plant"
+  ],
+  "Cardboard packaging": [
+    "Maize starch, at plant",
+    "Adhesives and binders, at plant",
+    "Coating powder, at plant"
+  ]
+}
