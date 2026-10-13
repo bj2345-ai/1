@@ -17,6 +17,7 @@ def number(value, digits=3):
 
 def main():
     run = json.loads((ROOT / "results/screening-001.json").read_text())
+    prompt_excerpts = (ROOT / "docs/prompts.md").read_text(encoding="utf-8")
     central = run["central"]
     stages = central["stage_contributions"]
     material_rows = "\n".join(
@@ -41,8 +42,10 @@ h1,h2{{line-height:1.2}}h1{{margin-bottom:.3rem}}.lead{{font-size:1.2rem}}
 .number{{font-size:2.4rem;font-weight:750;color:#006b70}}.caution{{border-left:5px solid #c77816;padding:1rem;background:#fff7e8}}
 table{{border-collapse:collapse;width:100%;font-size:.9rem}}th,td{{border-bottom:1px solid #d5dfe4;padding:.5rem;text-align:left}}th{{background:#eaf1f5}}
 td:not(:first-child),th:not(:first-child){{text-align:right}}.scroll{{overflow-x:auto}}a{{color:#006b70}}
+.prompt-text{{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;background:#f3f7f8;padding:1rem;border-radius:6px}}
 </style></head><body>
 <h1>BC1 1 L packaged electric kettle</h1><p class="lead">Factory-gate climate-impact screening · run screening-001 · 8 October 2026</p>
+<p><a href="#prompts">View the key prompts used for this analysis</a></p>
 <div class="card"><div>Approximate central result per packaged kettle</div><div class="number">{number(total, 3)} kg CO₂-eq</div>
 <div>Assumption stress scenarios: {number(low, 3)}–{number(high, 3)} kg CO₂-eq. This is not a confidence interval.</div></div>
 <div class="caution"><strong>Interpretation:</strong> All 12 material climate factors and most manufacturing parameters are illustrative assumptions. A named, versioned LCIA characterization method was not applied. Upstream supplier closure has not been demonstrated. This figure is an approximate screening estimate, not a verified full LCA result or a defensible class comparison benchmark.</div>
@@ -52,6 +55,7 @@ td:not(:first-child),th:not(:first-child){{text-align:right}}.scroll{{overflow-x
 <section class="card"><h2>Method and evidence</h2><p>Each material row uses purchased mass × assumed cumulative material factor, plus finished mass × conversion electricity intensity × assumed grid factor, plus scrap-disposal proxy. Assembly adds 0.15 kWh × 0.45 kg CO₂-eq/kWh. Inbound transport assumes 500 km and 0.10 kg CO₂-eq per tonne-km. The nominal horizon is 100 years, but formal LCIA source and version are unknown. No matrix inventory result is claimed for this screening calculation.</p><p>The BOM masses are sourced. The PP molding record from USLCI 1.2025-06.0 (UUID 89a2b59a-1ca2-34f5-acc8-a8eaaa6fa870, version 00.00.014) supplies 1.034 kg resin and 6.444 MJ electricity per kg molded part. PP resin's climate factor remains assumed. Other direct molding inputs are omitted. All other numerical burden factors and process parameters are assumptions. <a href="data/screening_inputs.csv">Factor, yield and energy table</a> · <a href="data/screening_config.json">Scenario settings</a> · <a href="data/matches.csv">Dataset matches</a> · <a href="data/manifest.json">USLCI source manifest</a></p></section>
 <section class="card"><h2>Checks and limits</h2><p>Finished mass: {number(central['checks']['finished_mass_kg'], 4)} kg. Assumed purchased mass: {number(central['checks']['purchased_mass_kg'], 4)} kg. Mass-balance and stage-sum residuals: {number(central['checks']['mass_balance_kg'], 8)} kg and {number(central['checks']['contribution_sum_residual_kgco2e'], 8)} kg CO₂-eq. Unresolved provider links and missing compatible characterization factors prevented a verified cradle-to-gate inventory calculation. The preserved independent audit therefore has no numerical GWP100 value. The 2.224–5.149 range varies chosen assumptions together and is not parameter uncertainty or a P05–P95 interval.</p><p><a href="results/independent.json">Preserved independent audit</a> · <a href="results/closure_assessment.json">Closure assessment</a> · <a href="results/screening-001.json">Full screening results</a> · <a href="results/screening_contributions.csv">Contribution CSV</a> · <a href="README.md">Full study and reproduction README</a></p></section>
 <section class="card"><h2>Reproduce</h2><p>Install <code>requirements.txt</code>, then run <code>python kettle_lca.py retrieve</code>, <code>python kettle_lca.py audit</code>, <code>python screening.py</code>, and <code>python report.py</code>. The public USLCI archive is fetched and hash-checked; TianGong historical search details and unresolved alternatives are documented in the README. This report is generated from <code>results/screening-001.json</code>.</p></section>
+<section class="card" id="prompts"><h2>Prompts used</h2><p>Verbatim excerpts of the key user requests appear below in conversation order. This is a curated selection, not a full chat transcript. See <a href="docs/prompts.md">the prompt file</a> and <a href="docs/decisions.md">the decision log</a> for the record in separate files.</p><div class="prompt-text">{esc(prompt_excerpts)}</div></section>
 </body></html>"""
     (ROOT / "report.html").write_text(page, encoding="utf-8")
     print(ROOT / "report.html")
